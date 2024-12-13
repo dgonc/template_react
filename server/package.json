@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev:server": "nodemon index.js"
+    "dev:server": "nodemon index.js",
+    "setup": "npm i && npm --prefix ./client i && npm --prefix ./server i"
   },
   "author": "",
   "license": "ISC",
